@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004f6d,
+    #008b90,
+    #70c69e,
+    #e2fbaa
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.static-nav {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  padding: 0px 5px;
+  background: #093462;
+}
+.static-nav .selected {
+  border-bottom: 1px solid white;
+}
+.static-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  align-items: center;
+}
+
+.static-nav a {
+  text-decoration: none;
+  color: white;
+  font: 400 18px "Quicksand";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 5px;
+}
+h1 {
+  margin: 0 auto 0 0;
+  font: 25px "Quicksand";
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+table {
+  margin: 20px auto;
+}
+td {
+  width: 60px;
+  height: 60px;
+}
+.black {
+  background: black;
+}
+.white {
+  background: white;
+}
+.very-easy-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+  color: white;
+}
+.easy-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+  color: white;
+}
+.flag-container {
+  background: white;
+  width: 805px;
+  margin: 20px auto;
+}
+.stars-img-wrap {
+  width: 300px;
+  height: 217px;
+  display: inline-block;
+}
+.stars-img-wrap img {
+  width: 100%;
+  height: 100%;
+}
+.easy-table {
+  display: inline-block;
+  margin: 0;
+}
+.easy-table td {
+  height: 27px;
+  width: 800px;
+}
+.easy-table th {
+  height: 27px;
+  width: 495px;
+}
+.red {
+  background-color: red;
+}
+.medium-challenge-figure-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+figure {
+  width: 320px;
+  height: 400px;
+  background: white;
+  margin: 20px auto 10px;
+  box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.15);
+}
+figure div {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
+figure figcaption {
+  margin-bottom: auto;
+  font: 400 16px "Quicksand";
+  padding: 0 20px;
+}
+figure p {
+  text-align: center;
+  font: 400 16px "Quicksand";
+}
+.medium-challenge-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+  color: white;
+}
+.pie-container {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+.red-pie,
+.green-pie,
+.yellow-pie,
+.blue-pie {
+  border: 0.2px solid white;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hard-challenge-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+  color: white;
+}
+.very-hard-nav {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  margin: 20px auto;
+  background: #093462;
+}
+.very-hard-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0 10px 0 auto;
+  padding: 0;
+  height: inherit;
+  align-items: center;
+}
+.very-hard-nav a {
+  text-decoration: none;
+  color: white;
+  font: 400 18px "Quicksand";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 5px;
+}
+.very-hard-nav img {
+  width: 140px;
+}
+.very-hard p {
+  color: white;
+  font: 400 18px "Quicksand";
+}
+/***********************
+LARGE-BOX/SMALL-BOX
+***********************/
+
+.top-container {
+  display: flex;
+  width: 100%;
+  height: 510px;
+  margin-bottom: 2.5%;
+}
+.smallbox-container,
+.largebox-container {
+  width: 50%;
+  position: relative;
+}
+
+.large-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+}
+.large-box img {
+  width: 100%;
+  height: 300px;
+}
+.small-box1 {
+  margin-bottom: 7.5%;
+  top: 0;
+}
+.small-box2 {
+  bottom: 0;
+}
+.small-box1,
+.small-box2 {
+  width: 100%;
+  height: 225px;
+  background: #093462;
+  display: block;
+  position: absolute;
+}
+/***********************
+HEADER STATEMENT
+***********************/
+
+.header-statement {
+  height: 125px;
+  background: #093462;
+  margin-bottom: 2.5%;
+}
+
+/***********************
+CARDS
+***********************/
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2.5%;
+}
+.card-1,
+.card-2,
+.card-3 {
+  background: #093462;
+  width: 30%;
+  height: 275px;
+}
+.card-1,
+.card-2 {
+  margin-right: 5%;
+}
+
+/***********************
+TABS
+***********************/
+.tabs-container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+.tab-1,
+.tab-2,
+.tab-3,
+.tab-4 {
+  background: #093462;
+  height: 100%;
+  width: 24.8%;
+}
+.tab-1,
+.tab-2,
+.tab-3 {
+  margin-right: 0.26%;
+}
+/***********************
+PARAGRAPHS BOX
+***********************/
+.paragraphs-Box {
+  width: 100%;
+  height: 600px;
+  background: #093462;
+  margin-top: 0.3%;
+}
+.paragraphs-Box p {
+  margin: 0;
+  color: white;
+}
+
+/***********************
+FOOTER
+***********************/
+footer {
+  background: #093462;
+  height: 80px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+footer p {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font: 400 18px "Quicksand";
+  padding-left: 2.5%;
+}
+footer a {
+  float: right;
+  color: black;
+  padding-right: 2.5%;
+}
